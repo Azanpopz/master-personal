@@ -151,7 +151,7 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'♻️ ɪɴꜰᴏ', 'info'),
-                    InlineKeyboardButton(f'ꜰᴏʀᴍᴀᴛ​', 'format'),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search}#{key}"),
                     InlineKeyboardButton(f'ᴛɪᴘs​ ⚜', 'tips')
                 ]
             )
@@ -160,7 +160,7 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'♻️ ɪɴꜰᴏ', 'info'),
-                    InlineKeyboardButton(f'ꜰᴏʀᴍᴀᴛ​', 'format'),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search}#{key}"),
                     InlineKeyboardButton(f'ᴛɪᴘs​ ⚜', 'tips')
                 ]
             )
@@ -173,7 +173,7 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'♻️ ɪɴꜰᴏ', 'info'),
-                    InlineKeyboardButton(f'ꜰᴏʀᴍᴀᴛ​', 'format'),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search}#{key}"),
                     InlineKeyboardButton(f'ᴛɪᴘs​ ⚜', 'tips')
                 ]
             )
@@ -182,7 +182,7 @@ async def next_page(bot, query):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'♻️ ɪɴꜰᴏ', 'info'),
-                    InlineKeyboardButton(f'ꜰᴏʀᴍᴀᴛ​', 'format'),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search}#{key}"),
                     InlineKeyboardButton(f'ᴛɪᴘs​ ⚜', 'tips')
                 ]
             )
@@ -1660,7 +1660,7 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'♻️ ɪɴꜰᴏ', 'info'),
-                    InlineKeyboardButton(f'ꜰᴏʀᴍᴀᴛ​', 'format'),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search}#{key}"),
                     InlineKeyboardButton(f'ᴛɪᴘs​ ⚜', 'tips')
                 ]
             )
@@ -1669,7 +1669,7 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'♻️ ɪɴꜰᴏ', 'info'),
-                    InlineKeyboardButton(f'ꜰᴏʀᴍᴀᴛ​', 'format'),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search}#{key}"),
                     InlineKeyboardButton(f'ᴛɪᴘs​ ⚜', 'tips')
                 ]
             )
@@ -1682,7 +1682,7 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'♻️ ɪɴꜰᴏ', 'info'),
-                    InlineKeyboardButton(f'ꜰᴏʀᴍᴀᴛ​', 'format'),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search}#{key}"),
                     InlineKeyboardButton(f'ᴛɪᴘs​ ⚜', 'tips')
                 ]
             )
@@ -1691,7 +1691,7 @@ async def auto_filter(client, msg, spoll=False):
             btn.insert(0, 
                 [
                     InlineKeyboardButton(f'♻️ ɪɴꜰᴏ', 'info'),
-                    InlineKeyboardButton(f'ꜰᴏʀᴍᴀᴛ​', 'format'),
+                    InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search}#{key}"),
                     InlineKeyboardButton(f'ᴛɪᴘs​ ⚜', 'tips')
                 ]
             )
