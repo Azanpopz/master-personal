@@ -62,7 +62,7 @@ async def pm_text(bot, message):
     if user_id in ADMINS: return # ignore admins
     await message.reply_sticker("CAACAgUAAxkBAAEHZMVjzg6cBfl2gTY8e_WiIJs8KIcK_gACMQQAArayWFav_0n-ZhiVES0E")
     await message.reply_text(
-         text="<b>ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !</b>"   
+         text="<b>ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !</b>",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("♂️ Share", url=f"t.me/at3movies")]])
     )       
 
