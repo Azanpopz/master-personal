@@ -61,6 +61,7 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text("<b>Yᴏᴜʀ ᴍᴇssᴀɢᴇ ʜᴀs ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !</b>")    
+    reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("♂️ Share", url=f"t.me/at3movies")]])       
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
