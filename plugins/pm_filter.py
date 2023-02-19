@@ -60,9 +60,9 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_sticker("CAACAgUAAxkBAAEHZMVjzg6cBfl2gTY8e_WiIJs8KIcK_gACMQQAArayWFav_0n-ZhiVES0E")
+    await message.reply_sticker("CAACAgUAAxkBAAEHz59j8oWj00H0XbqWjQmvyCSSKTCzEgACNAAD_u_PFcrzeGgsFSr5LgQ")
     await message.reply_text(
-         text="<b>ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !</b>",   
+         text="<b>hello {message.from_user.first_name} hi</b>",   
          reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("♂️ Share", url=f"t.me/at3movies")]])
     )       
 
