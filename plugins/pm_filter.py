@@ -62,8 +62,8 @@ async def pm_text(bot, message):
     if user_id in ADMINS: return # ignore admins
     await message.reply_sticker("CAACAgUAAxkBAAEHz59j8oWj00H0XbqWjQmvyCSSKTCzEgACNAAD_u_PFcrzeGgsFSr5LgQ")
     await message.reply_text(
-         text="<b>hello {message.from_user.mention()}\n\nhi</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("♂️ Share", url=f"t.me/at3movies")]])
+         text="<b>ʜᴇʏ ᴅᴜᴅᴇ 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ᴏɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ​👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ​ ", url=f"t.me/at3movies")]])
     )       
 
 @Client.on_callback_query(filters.regex(r"^next"))
