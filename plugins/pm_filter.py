@@ -60,7 +60,8 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
-    await message.reply_text("<b>Yᴏᴜʀ ᴍᴇssᴀɢᴇ ʜᴀs ʙᴇᴇɴ sᴇɴᴛ ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !</b>")    
+    await message.reply_sticker("CAACAgUAAxkBAAEHZMVjzg6cBfl2gTY8e_WiIJs8KIcK_gACMQQAArayWFav_0n-ZhiVES0E")
+    await message.reply_text("<b>ᴛᴏ ᴍʏ ᴍᴏᴅᴇʀᴀᴛᴏʀs !</b>")    
     reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("♂️ Share", url=f"t.me/at3movies")]])       
 
 @Client.on_callback_query(filters.regex(r"^next"))
