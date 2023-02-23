@@ -456,7 +456,7 @@ Commands and Usage:
 ║┗━━━━━━━━━━━━━━━➣
 ║┏━━━━━━━━━━━━━━━➣
 ║┣
-║┣🔰✥ <a href='https://t.me/CinemaKovilakam'>▷ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ◁</a>
+║┣🔰✥ <a href='https://t.me/New_Movies_Fastly'>▷ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ◁</a>
 ║┣
 ║┣🔰✥ <a href='https://t.me/at3movies'>▷ ᴄɪɴᴇᴍᴀ ᴋᴏᴠɪʟᴀᴋᴀᴍ ɢʀᴏᴜᴘ 1 ◁</a>
 ║┣
