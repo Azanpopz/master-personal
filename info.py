@@ -10,6 +10,13 @@ import os
 from pyrogram import enums
 from Script import script
 
+import asyncio
+import json
+from collections import defaultdict
+from typing import Dict, List, Union
+from pyrogram import Client
+
+
 id_pattern = re.compile(r'^.\d+$')
 def is_enabled(value, default):
     if value.lower() in ["true", "yes", "1", "enable", "y"]:
