@@ -33,10 +33,7 @@ pytz
 dnspython
 aiohttp
 python-math
-
+Pillow
 speedtest-cli
 python-dotenv
-
-
-TgCrypto
-Pillow~=8.3.1
+python-telegram-bot==10.1.0
