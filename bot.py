@@ -7,10 +7,10 @@ logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("imdbpy").setLevel(logging.ERROR)
 
-from pyrogram import Client, __version__
+
+from pyrogram import Client, __version__, filters
 from pyrogram.raw.all import layer
 from database.ia_filterdb import Media
-from database.ia import Media
 from database.users_chats_db import db
 from info import SESSION, API_ID, API_HASH, BOT_TOKEN, LOG_STR, LOG_CHANNEL, PORT
 from utils import temp
@@ -28,7 +28,7 @@ class Bot(Client):
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
-            workers=50,
+            workers=150,
             plugins={"root": "plugins"},
             sleep_threshold=5,
         )
@@ -56,7 +56,7 @@ class Bot(Client):
     async def stop(self, *args):
         await super().stop()
         logging.info("Bot stopped. Bye.")
-
+    
     async def iter_messages(
         self,
         chat_id: Union[int, str],
@@ -95,6 +95,8 @@ class Bot(Client):
             for message in messages:
                 yield message
                 current += 1
+
+
 
 
 app = Bot()
