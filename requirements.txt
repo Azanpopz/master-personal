@@ -36,4 +36,4 @@ python-math
 Pillow
 speedtest-cli
 python-dotenv
-python-telegram-bot==10.1.0
+
