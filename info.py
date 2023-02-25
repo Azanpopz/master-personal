@@ -68,6 +68,13 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID')
 reqst_channel = environ.get('REQST_CHANNEL_ID')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+7oxSIxY4X0c2ZGVl")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+7oxSIxY4X0c2ZGVl")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+7oxSIxY4X0c2ZGVl")
+
+
+
+
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
