@@ -8,5 +8,5 @@ else
 fi
 cd /master_personal
 pip3 install -U -r requirements.txt
-echo "Starting DQ-The-File-Donor...."
+echo "Starting master_personal...."
 python3 bot.py
